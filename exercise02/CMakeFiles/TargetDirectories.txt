@@ -1,0 +1,4 @@
+C:/Users/Meu PC/Desktop/estudos/GTEL/cpp-exercises-master/exercise02/CMakeFiles/my_program.dir
+C:/Users/Meu PC/Desktop/estudos/GTEL/cpp-exercises-master/exercise02/CMakeFiles/my_library.dir
+C:/Users/Meu PC/Desktop/estudos/GTEL/cpp-exercises-master/exercise02/CMakeFiles/ALL_BUILD.dir
+C:/Users/Meu PC/Desktop/estudos/GTEL/cpp-exercises-master/exercise02/CMakeFiles/ZERO_CHECK.dir

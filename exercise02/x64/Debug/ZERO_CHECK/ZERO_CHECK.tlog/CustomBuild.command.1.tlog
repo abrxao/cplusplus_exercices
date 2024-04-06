@@ -1,0 +1,10 @@
+^C:\USERS\MEU PC\DESKTOP\ESTUDOS\GTEL\CPP-EXERCISES-MASTER\EXERCISE02\CMAKEFILES\66A9F5A970F85A83FD76480B74C0D9FD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Cmake\bin\cmake.exe" "-SC:/Users/Meu PC/Desktop/estudos/GTEL/cpp-exercises-master/exercise02" "-BC:/Users/Meu PC/Desktop/estudos/GTEL/cpp-exercises-master/exercise02" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Meu PC/Desktop/estudos/GTEL/cpp-exercises-master/exercise02/DoubleProject.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

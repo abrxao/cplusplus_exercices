@@ -2,5 +2,6 @@
 #define FUNCS_H
 
 // Add the function prototype here for the "doubleInput" function
+double doubleInput(double input);
 
 #endif
