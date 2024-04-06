@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Meu PC\Desktop\estudos\GTEL\cpp-exercises-master\exercise01\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Meu PC\Desktop\estudos\GTEL\cpp-exercises-master\exercise01\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A3AC380E-C3EC-3EF3-9776-3E9FD24CAF54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
