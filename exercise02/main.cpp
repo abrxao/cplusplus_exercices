@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
         if(i==0){
             std::cout << "\nBye Bye";
         }else{
-            std::cout  << "This window will delete after " << i <<" "<< str;
+            std::cout  << "This window will close after " << i <<" "<< str;
         }
         std::this_thread::sleep_for(std::chrono::seconds(1));
         
