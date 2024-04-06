@@ -1,0 +1,39 @@
+# Ignore build artifacts
+build/
+bin/
+lib/
+*.exe
+*.out
+*.so
+*.dll
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+/Debug
+/main.dir
+/x64
+
+# Ignore any temporary files
+*.o
+*.a
+*.obj
+*.ilk
+*.pdb
+*.exp
+*.cache
+*.gcno
+*.gcda
+*.swp
+*~
+
+# Ignore Visual Studio Code specific files
+.vscode/
+
+# Ignore any user-specific files
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
