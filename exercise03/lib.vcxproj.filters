@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Meu PC\Desktop\estudos\GTEL\cpp-exercises-master\exercise03\funcs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Meu PC\Desktop\estudos\GTEL\cpp-exercises-master\exercise03\funcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Meu PC\Desktop\estudos\GTEL\cpp-exercises-master\exercise03\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{901265C6-9A76-3C99-A4AD-AC0BB9023FBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0574A932-9A1C-3E7F-9FDC-F635A5713DC2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

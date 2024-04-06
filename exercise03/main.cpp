@@ -8,5 +8,7 @@ int main(int argc, char *argv[])
 
     std::cout << "The double of " << input << " is " << output << std::endl;
 
+    sleepSeconds(3);
+
     return 0;
 }
