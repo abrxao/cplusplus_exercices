@@ -71,7 +71,8 @@
     "xstddef": "cpp",
     "xtr1common": "cpp",
     "xtree": "cpp",
-    "xutility": "cpp"
+    "xutility": "cpp",
+    "armadillo": "cpp"
   },
   "cmake.sourceDirectory": "C:/Users/Meu PC/Desktop/estudos/GTEL/cpp-exercises-master/exercise01"
 }

@@ -13,8 +13,9 @@ CMakeCache.txt
 cmake_install.cmake
 compile_commands.json
 /Debug
-/main.dir
 /x64
+/*.dir
+
 
 # Ignore any temporary files
 *.o
@@ -31,6 +32,11 @@ compile_commands.json
 
 # Ignore Visual Studio Code specific files
 .vscode/
+
+#ignore visual studio files
+*.vcxproj
+*.filters
+*.sln
 
 # Ignore any user-specific files
 *.user
