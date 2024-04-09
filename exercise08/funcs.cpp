@@ -1,17 +1,33 @@
 #include "funcs.h"
+#include <iostream>
+#include <thread>
+#include <chrono>
 
-void printVector(std::vector<double> vec) {
-    std::cout << "vector: [";
-
-    if(vec.size() > 0) {
-        // The loop does not include the last element such that we avoid a comma
-        // after the last element.
-        for(unsigned int i=0; i < vec.size()-1; i++) {
-            std::cout << vec[i] << ", ";
+void sleepSeconds(int seconds) {
+    std::cout <<"\n--------------------------------\n";
+    for (int i = seconds; i != -1; i--)
+    {   
+        std::string str = i>1? "seconds\n":"second\n";
+        if(i==0){
+            std::cout << "\nBye Bye";
+        }else{
+            std::cout  << "This window will close after " << i <<" "<< str;
         }
-        // Print the last element
-
-        std::cout << vec[vec.size()-1];
+        std::this_thread::sleep_for(std::chrono::seconds(1));
+        
     }
-    std::cout << "]" << std::endl;
 }
+
+//This code print the vector for each key in map1 with generic type
+template<typename T>
+void printVector(const std::vector<T> &vec) {
+    std::cout << "Vector: ";
+    for (auto &elem : vec) {
+        std::cout << elem << " ";
+    }
+    std::cout << std::endl;
+}
+
+// Explicit instantiation for double and int
+template void printVector<double>(const std::vector<double> &vec);
+template void printVector<int>(const std::vector<int> &vec);
