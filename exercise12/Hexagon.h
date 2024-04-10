@@ -8,9 +8,9 @@
 class Hexagon : public RegularPolygon
 {
 public:
-    Hexagon(double sideLength);
+    explicit Hexagon(double sideLength);
 
-    double calcArea() override;
+    const double calcArea() override;
 };
 
 

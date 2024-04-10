@@ -8,9 +8,9 @@
 class Triangle : public RegularPolygon
 {
 public:
-    Triangle(double sideLength);
+    explicit Triangle(double sideLength);
 
-    double calcArea() override;
+    const double calcArea() override;
 };
 
 
