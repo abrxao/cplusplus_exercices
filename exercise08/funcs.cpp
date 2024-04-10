@@ -17,17 +17,3 @@ void sleepSeconds(int seconds) {
         
     }
 }
-
-//This code print the vector for each key in map1 with generic type
-template<typename T>
-void printVector(const std::vector<T> &vec) {
-    std::cout << "Vector: ";
-    for (auto &elem : vec) {
-        std::cout << elem << " ";
-    }
-    std::cout << std::endl;
-}
-
-// Explicit instantiation for double and int
-template void printVector<double>(const std::vector<double> &vec);
-template void printVector<int>(const std::vector<int> &vec);
