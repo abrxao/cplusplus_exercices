@@ -35,6 +35,9 @@ int main(int argc, char *argv[])
         printVector(value);
 
     }
+    // The vector is empty cause it was moved to the map
+    std::cout << "someOtherVec: ";
+    printVector(someOtherVec);
 
     // we can also directly use the structured binding in the for loop
     for(const auto& [key, value] : map2) {
