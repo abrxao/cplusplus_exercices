@@ -5,5 +5,11 @@
 
 // Implement the hexagon class here. Note that its constructor should receive
 // only the sideLength parameter.
+class Hexagon: public RegularPolygon{
+    public:
+        Hexagon(double sizeLength): RegularPolygon(6, sizeLength){};
+    double calcArea() override;
+
+};
 
 #endif
