@@ -1,0 +1,38 @@
+{
+  "version": 3,
+  "vendor": {
+    "conan": {}
+  },
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 15,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "conan-release",
+      "displayName": "'conan-release' config",
+      "description": "'conan-release' configure using 'Unix Makefiles' generator",
+      "generator": "Unix Makefiles",
+      "cacheVariables": {
+        "CMAKE_POLICY_DEFAULT_CMP0091": "NEW",
+        "CMAKE_BUILD_TYPE": "Release"
+      },
+      "toolchainFile": "/home/abraao/\u00c1rea de Trabalho/faculdade/GTEL/cplusplus_exercises/exercise13/build/Release/generators/conan_toolchain.cmake",
+      "binaryDir": "/home/abraao/\u00c1rea de Trabalho/faculdade/GTEL/cplusplus_exercises/exercise13/build/Release"
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "conan-release",
+      "configurePreset": "conan-release",
+      "jobs": 8
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "conan-release",
+      "configurePreset": "conan-release"
+    }
+  ]
+}
