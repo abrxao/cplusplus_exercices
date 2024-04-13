@@ -5,12 +5,14 @@ project(CoolProject)
 add_executable(main
   main.cpp
   )
-
+find_package(armadillo REQUIRED)
 
 add_library(mylib
   funcs.h
-  funcs.cpp)
+  funcs.cpp
+  )
 
 target_link_libraries(main mylib)
+target_link_libraries(main armadillo::armadillo)
 
-target_include_directories(main SYSTEM PUBLIC ../external/armadillo-9.100.5/include)
+

@@ -1,0 +1,10 @@
+{
+    "version": 4,
+    "vendor": {
+        "conan": {}
+    },
+    "include": [
+        "/home/abraao/\u00c1rea de Trabalho/faculdade/GTEL/cplusplus_exercises/exercise07/build/Release/generators/CMakePresets.json",
+        "/home/abraao/\u00c1rea de Trabalho/faculdade/GTEL/cplusplus_exercises/exercise07/build/build/Release/generators/CMakePresets.json"
+    ]
+}

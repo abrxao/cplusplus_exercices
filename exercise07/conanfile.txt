@@ -1,11 +1,7 @@
 [requires]
-catch2/3.5.3
-
+armadillo/12.6.4
 [generators]
 CMakeDeps
 CMakeToolchain
-
-[options]
-
 [layout]
 cmake_layout

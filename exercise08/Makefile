@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/abraao/Área de Trabalho/faculdade/GTEL/cplusplus_exercises/exercise13"
+CMAKE_SOURCE_DIR = "/home/abraao/Área de Trabalho/faculdade/GTEL/cplusplus_exercises/exercise08"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/abraao/Área de Trabalho/faculdade/GTEL/cplusplus_exercises/exercise13"
+CMAKE_BINARY_DIR = "/home/abraao/Área de Trabalho/faculdade/GTEL/cplusplus_exercises/exercise08"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/abraao/Área de Trabalho/faculdade/GTEL/cplusplus_exercises/exercise13/CMakeFiles" "/home/abraao/Área de Trabalho/faculdade/GTEL/cplusplus_exercises/exercise13//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/abraao/Área de Trabalho/faculdade/GTEL/cplusplus_exercises/exercise08/CMakeFiles" "/home/abraao/Área de Trabalho/faculdade/GTEL/cplusplus_exercises/exercise08//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/abraao/Área de Trabalho/faculdade/GTEL/cplusplus_exercises/exercise13/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/abraao/Área de Trabalho/faculdade/GTEL/cplusplus_exercises/exercise08/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -142,77 +142,29 @@ mylib/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/build
 .PHONY : mylib/fast
 
-Hexagon.o: Hexagon.cpp.o
-.PHONY : Hexagon.o
+funcs.o: funcs.cpp.o
+.PHONY : funcs.o
 
 # target to build an object file
-Hexagon.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/Hexagon.cpp.o
-.PHONY : Hexagon.cpp.o
+funcs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/funcs.cpp.o
+.PHONY : funcs.cpp.o
 
-Hexagon.i: Hexagon.cpp.i
-.PHONY : Hexagon.i
-
-# target to preprocess a source file
-Hexagon.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/Hexagon.cpp.i
-.PHONY : Hexagon.cpp.i
-
-Hexagon.s: Hexagon.cpp.s
-.PHONY : Hexagon.s
-
-# target to generate assembly for a file
-Hexagon.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/Hexagon.cpp.s
-.PHONY : Hexagon.cpp.s
-
-RegularPolygon.o: RegularPolygon.cpp.o
-.PHONY : RegularPolygon.o
-
-# target to build an object file
-RegularPolygon.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/RegularPolygon.cpp.o
-.PHONY : RegularPolygon.cpp.o
-
-RegularPolygon.i: RegularPolygon.cpp.i
-.PHONY : RegularPolygon.i
+funcs.i: funcs.cpp.i
+.PHONY : funcs.i
 
 # target to preprocess a source file
-RegularPolygon.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/RegularPolygon.cpp.i
-.PHONY : RegularPolygon.cpp.i
+funcs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/funcs.cpp.i
+.PHONY : funcs.cpp.i
 
-RegularPolygon.s: RegularPolygon.cpp.s
-.PHONY : RegularPolygon.s
-
-# target to generate assembly for a file
-RegularPolygon.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/RegularPolygon.cpp.s
-.PHONY : RegularPolygon.cpp.s
-
-Triangle.o: Triangle.cpp.o
-.PHONY : Triangle.o
-
-# target to build an object file
-Triangle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/Triangle.cpp.o
-.PHONY : Triangle.cpp.o
-
-Triangle.i: Triangle.cpp.i
-.PHONY : Triangle.i
-
-# target to preprocess a source file
-Triangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/Triangle.cpp.i
-.PHONY : Triangle.cpp.i
-
-Triangle.s: Triangle.cpp.s
-.PHONY : Triangle.s
+funcs.s: funcs.cpp.s
+.PHONY : funcs.s
 
 # target to generate assembly for a file
-Triangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/Triangle.cpp.s
-.PHONY : Triangle.cpp.s
+funcs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/funcs.cpp.s
+.PHONY : funcs.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -248,15 +200,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... main"
 	@echo "... mylib"
-	@echo "... Hexagon.o"
-	@echo "... Hexagon.i"
-	@echo "... Hexagon.s"
-	@echo "... RegularPolygon.o"
-	@echo "... RegularPolygon.i"
-	@echo "... RegularPolygon.s"
-	@echo "... Triangle.o"
-	@echo "... Triangle.i"
-	@echo "... Triangle.s"
+	@echo "... funcs.o"
+	@echo "... funcs.i"
+	@echo "... funcs.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
